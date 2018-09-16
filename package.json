@@ -1,0 +1,17 @@
+{
+  "name": "task-24-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculateDistancePoints.js",
+  "scripts": {
+    "test": "mocha *.test.js",
+    "test:distance": "mocha -w calculateDistancePoints.test.js",
+    "test:style": "mocha -w calculateStylePoints.test.js",
+    "test:total": "mocha -w calculateTotalPoints.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
